@@ -103,4 +103,104 @@ header {
   width: 4%;
 }
 
-/* END MIGALHAS *//*# sourceMappingURL=style.css.map */
+/* END MIGALHAS */
+/* CORPO TEXTO */
+.texto {
+  padding: 23px;
+}
+
+.texto h1 {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.texto h2 {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.texto p {
+  font-size: 14px;
+}
+
+/* END CORPO TEXTO */
+/* LOGO MRV-CO */
+.img-mrv {
+  width: 200px;
+  margin-left: 5px;
+}
+
+.mrv-co {
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.listagem-mrv {
+  margin-left: -44px;
+  margin-top: 30px;
+}
+
+.listagem-mrv li {
+  float: left;
+  background-color: #fff;
+  margin-left: 10px;
+}
+
+.mrv {
+  width: 60px;
+}
+
+.instituto {
+  width: 60px;
+}
+
+.btn.btn-ghost {
+  background-color: transparent;
+  border: 2px solid;
+  color: #006B3F;
+  padding: 4px;
+  width: 100px;
+}
+
+/* MODAL */
+.modal-body p {
+  padding-left: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-body h2 {
+  padding-left: 12px;
+  margin-top: 180px;
+  display: flex;
+  align-items: center;
+}
+
+.btn-icon-circle {
+  margin-left: 85%;
+  margin-top: 240px;
+  border-radius: 6rem;
+  padding: 0;
+  height: 2.5rem;
+  width: 2.5rem;
+  justify-content: center;
+  background-color: #006b3f;
+  border: #006B3F;
+  z-index: 10 !important;
+  padding: 10px;
+}
+
+.elemento {
+  font: inherit;
+  font-size: 1rem;
+  color: #fff !important;
+}
+
+.footer-modal {
+  width: 100%;
+}/*# sourceMappingURL=style.css.map */
