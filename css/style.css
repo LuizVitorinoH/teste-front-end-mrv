@@ -321,4 +321,24 @@ header {
   font-weight: 600;
 }
 
-/* END BUTTON BUSCAR *//*# sourceMappingURL=style.css.map */
+/* END BUTTON BUSCAR */
+#img-desktop {
+  display: none;
+}
+
+/* FOOTER */
+.footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  z-index: 5;
+}
+
+.footer-img {
+  width: 100%;
+}
+
+/* END FOOTER */
+#footer-desktop {
+  display: none;
+}/*# sourceMappingURL=style.css.map */
