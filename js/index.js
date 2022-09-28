@@ -1,0 +1,3 @@
+function conferir() {
+    window.location = "./"
+};
