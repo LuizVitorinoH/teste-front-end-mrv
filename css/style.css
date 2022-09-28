@@ -203,4 +203,32 @@ header {
 
 .footer-modal {
   width: 100%;
-}/*# sourceMappingURL=style.css.map */
+}
+
+/* BUTTON CONFERIR AGORA */
+.btn-box {
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-conferir {
+  padding: 2.8%;
+  color: #FFFFFF;
+  background-color: #006B3F;
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  width: 250px;
+  font-weight: 600;
+}
+
+.btn-conferir a:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+/*END BUTTON CONFERIR AGORA *//*# sourceMappingURL=style.css.map */
