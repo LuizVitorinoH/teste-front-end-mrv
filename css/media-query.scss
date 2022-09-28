@@ -1,0 +1,105 @@
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+
+    // TABLET //
+    .logo {
+        display: none;
+
+    }
+
+    #foto-texto {
+        position: relative;
+        display: flex;
+        margin: 0;
+        max-width: 90%;
+        top: 140px;
+        min-height: 380px;
+    }
+
+    .texto-vitrine {
+        position: absolute;
+        left: 0px + 55px;
+        width: 50%;
+        border-radius: 30px;
+        top: 0px;
+        font-size: 40px;
+        max-height: 300px;
+        height: 300px;
+        padding-top: 30px;
+
+    }
+
+    .vitrine-foto {
+        position: absolute;
+        right: 0-23px;
+        width: 53%;
+        
+    }
+
+    .foto {
+        position: static;
+        border-radius: 30px;
+        height: 300px;
+    }
+
+    .responsive {
+        padding: 40px;
+        flex: 0 0 0 80%;
+        max-width: 80%;
+        padding: 40px;
+    }
+
+    .texto {
+        padding: 40px;
+    }
+
+    .texto h1 {
+        padding: 40px;
+        font-weight: bold;
+        font-size: 40px;
+    }
+
+    .texto h2 {
+        padding: 40px;
+        font-weight: bold;
+        font-size: 40px;
+    }
+
+    .texto p {
+        padding: 40px;
+        font-size: 20px;
+    }
+
+    .migalhas {
+        margin-top: 28px;
+        padding: 20px;
+        font-size: 18px;
+    }
+
+    .accordion-item h2 {
+        padding: 0;
+    }
+
+    .modal-body p {
+        padding-left: 12px;
+        margin-top: -70px;
+    }
+
+    .modal-body h2 {
+        padding-left: 12px;
+        margin-top: 100px;
+
+    }
+
+    .btn-icon-circle {
+        margin-left: 85%;
+        margin-top: 150px;
+    }
+
+
+    .responsive {
+        padding: 40px;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+}
