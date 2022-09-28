@@ -243,3 +243,54 @@ html {
  }
  
  /*END BUTTON CONFERIR AGORA */
+ /* NOSSO VALORES */
+.nossos-valores {
+    margin-top: 40px;
+ }
+ 
+ /* ACCORDION */
+ .accordion-button {
+    font-weight: 700;
+    color: #006B3F !important;
+ }
+ 
+ .accordion-button::after {
+    background-color: transparent !important;
+ }
+ 
+ .accordion-item {
+    border: none !important;
+    border-bottom: solid #006B3F !important;
+ }
+ 
+ #accordion-desktop {
+    display: none;
+ }
+ 
+ /* END ACCORDION */
+
+ /* SOBRE */
+.sobre {
+    margin-top: 30px;
+    padding-top: 5%;
+ }
+ 
+ .sobre a {
+    text-decoration: none;
+    color: black;
+ }
+ 
+ /* CAROUSEL */
+ .carousel-control-prev,
+ .carousel-control-next {
+    background-color: #006B3F !important;
+    height: 25%;
+    margin-top: 22%;
+    border-radius: 15%;
+    opacity: none;
+ }
+ 
+ .carousel-inner {
+    border-radius: 20px;
+ }
+ 
