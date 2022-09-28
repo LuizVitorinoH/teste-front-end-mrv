@@ -257,6 +257,10 @@ header {
 }
 
 /* END ACCORDION */
+.grafismo-1 {
+  display: none;
+}
+
 /* SOBRE */
 .sobre {
   margin-top: 30px;

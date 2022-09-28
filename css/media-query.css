@@ -79,4 +79,247 @@
     max-width: 100%;
     margin: 0 auto;
   }
+}
+@media only screen and (min-width: 992px) {
+  #barra-desktop {
+    display: block;
+    position: relative;
+    width: 100%;
+  }
+  .img-desktop {
+    width: 100%;
+  }
+  .vitrine {
+    margin-top: -100px;
+  }
+  .logo {
+    display: none;
+  }
+  #foto-texto {
+    position: relative;
+    display: flex;
+    margin: 0;
+    max-width: 90%;
+    top: 140px;
+    min-height: 380px;
+  }
+  .texto-vitrine {
+    position: absolute;
+    left: 55px;
+    width: 48%;
+    border-radius: 30px;
+    top: 0;
+    font-size: 40px;
+    min-height: 268px;
+    max-height: 268px;
+    padding-top: 60px;
+    padding-right: 40px;
+  }
+  .vitrine-foto {
+    position: absolute;
+    right: -55px;
+    width: 58%;
+  }
+  .foto {
+    position: static;
+    border-radius: 30px;
+    height: 268px;
+  }
+  .texto {
+    padding: 32px;
+  }
+  .texto h1 {
+    padding: 32px;
+    font-weight: bold;
+    font-size: 40px;
+  }
+  .texto h2 {
+    padding: 40px;
+    font-weight: bold;
+    font-size: 40px;
+  }
+  .texto p {
+    padding: 35px;
+    font-size: 16px;
+  }
+  .migalhas {
+    margin-left: 15px;
+    margin-top: 15px;
+    padding: 40px;
+    font-size: 16px;
+  }
+  .migalhas img {
+    width: 1.5%;
+  }
+  .texto-1 {
+    display: flex;
+    margin-top: -50px;
+  }
+  .texto-principal {
+    width: 50%;
+  }
+  .texto-principal p {
+    margin-top: -9%;
+  }
+  .mrv-co {
+    position: relative;
+    width: 50%;
+  }
+  .img-mrv {
+    margin-left: 170px;
+    width: 160px;
+  }
+  .listagem-mrv {
+    margin-top: 25px;
+    width: 100%;
+    margin-left: 105px;
+  }
+  .listagem-mrv li {
+    float: left;
+    background-color: #fff;
+    width: 50%;
+  }
+  .mrv {
+    width: 70%;
+  }
+  .instituto {
+    width: 60%;
+  }
+  .conteudo-mrv-co {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .modal-body p {
+    padding-left: 200px;
+    padding-right: 200px;
+    margin-top: -200px;
+  }
+  .modal-body h2 {
+    padding: 200px;
+    margin-top: 40px;
+  }
+  .btn-icon-circle {
+    margin-bottom: -90%;
+  }
+  .btn-box {
+    width: 100%;
+    text-align: left;
+    margin-top: 290px;
+    flex-direction: row;
+    justify-content: start;
+    align-items: flex-start;
+  }
+  .btn-conferir {
+    margin-left: 35px;
+    margin-top: -300px;
+    padding: 10px;
+    width: 12%;
+  }
+  .nossos-valores {
+    margin-top: -220px;
+  }
+  .nossos-valores p {
+    margin-top: -70px;
+  }
+  #accordion-desktop {
+    display: block;
+  }
+  .accordion {
+    display: flex;
+    width: 100%;
+    gap: 2%;
+    padding: 32px;
+    margin-top: -60px;
+  }
+  .accordion h2 {
+    padding: 0;
+  }
+  .accordion-1 {
+    width: 33%;
+  }
+  .accordion-2 {
+    width: 33%;
+  }
+  .bloco-carousel {
+    position: relative;
+    display: flex;
+    width: 100%;
+    margin-top: 200px;
+  }
+  .sobre {
+    position: absolute;
+    width: 50%;
+    margin-top: -40px;
+    right: 4%;
+    transform: translate(0, -50%);
+  }
+  .sobre p {
+    margin-top: -70px;
+  }
+  .grafismo-1 {
+    display: block;
+  }
+  .img-grafismo-1 {
+    margin-left: 80%;
+    margin-top: -300px;
+  }
+  .response-carousel {
+    position: absolute;
+    left: 26%;
+    width: 36%;
+    transform: translate(-50%, -50%);
+  }
+  .vagas {
+    margin-top: 180px;
+  }
+  .vagas p {
+    margin-top: -70px;
+  }
+  .formulario {
+    margin-top: -50px;
+    width: 40%;
+    padding: 35px;
+  }
+  .btn-busca {
+    margin-left: 120px;
+    width: 15%;
+    margin-top: -10px;
+  }
+  #buscar {
+    margin-left: 50px;
+    padding: 12px;
+  }
+  #img-desktop {
+    display: block;
+    height: 350px;
+    border-left: 1px solid #000;
+    margin-left: 550px;
+    margin-top: -320px;
+  }
+  .img-lateral {
+    margin-left: 100px;
+  }
+  .img-ilustracao {
+    margin-top: 40px;
+  }
+  .img-grasfismo-2 {
+    margin-top: -150px;
+    margin-left: 60%;
+  }
+  .footer {
+    display: none;
+  }
+  #footer-desktop {
+    display: block;
+    position: relative;
+  }
+  .img-footer-desktop {
+    margin-top: 100px;
+    width: 100%;
+  }
+  .footer-modal {
+    display: none;
+  }
 }/*# sourceMappingURL=media-query.css.map */
