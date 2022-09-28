@@ -28,6 +28,7 @@ html {
  }
  
  /* VITRINE */
+
  .vitrine {
     position: relative;
  }
@@ -84,3 +85,29 @@ html {
  }
  
  /* END VITRINE */
+
+ /* MIGALHAS */
+ 
+.migalhas {
+    margin-top: 90px;
+    padding: 23px;
+    font-size: 14px;
+    font-weight: 600;
+ }
+ 
+ /* MIGALHAS TEXTO */
+ .migalhas a {
+    text-decoration: none;
+    color: #006B3F;
+ }
+ 
+ .migalhas a:hover {
+    text-decoration: underline;
+    color: #013f25;
+ }
+ 
+ .migalhas img {
+    width: 4%;
+ }
+ 
+ /* END MIGALHAS */
